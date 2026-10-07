@@ -47,6 +47,6 @@ public class StudiKasus202{
                 System.out.println("Activites outside not receive fund");
             }
 
-        sc.close();
+        sc.close()
     }
 }
