@@ -15,7 +15,7 @@ public class StudiKasus202{
         typeOfActivity = sc.nextLine();
 
         if(typeOfActivity.equalsIgnoreCase("BELMAWA") || typeOfActivity.equalsIgnoreCase("BAKORMA") || typeOfActivity.equalsIgnoreCase("MANDIRI")){
-            System.out.println("Insert winner rank (1-3, 0 if not): ");
+            System.out.print("Insert winner rank (1-3, 0 if not): ");
             winnerRank = sc.nextInt();
             System.out.print("Enter amount of documents: ");
             numberOfUploadedDoc = sc.nextInt();
